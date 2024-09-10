@@ -29,7 +29,7 @@ function registerPlayers(n){
 
 function assignOpponent(){
 console.log('Round ' +round+ ' start!');
-console.log('Current contendants: ' +tournamentPlayers);
+console.log('Current contenders: ' +tournamentPlayers);
 
   while (0 < tournamentPlayers.length){
     battlePlayers.push(tournamentPlayers[0]);  
